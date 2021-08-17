@@ -13,7 +13,7 @@ jobs:
         uses: borales/actions-yarn@v2.3.0
         with:
           cmd: install # will run `yarn install` command
-      - name: Deploy Dev Bild
+      - name: Deploy Dev Build
         uses: borales/actions-yarn@v2.3.0
         with:
           cmd: build # will run `yarn build` command
